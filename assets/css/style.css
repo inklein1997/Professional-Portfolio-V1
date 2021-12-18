@@ -1,0 +1,91 @@
+:root {
+    --salmon: #F27289;
+    --pink: #D94EA8;
+    --purple: #7A77D9;
+    --mustard: #F2B705;
+    --light-orange: #F2B29B;
+}
+
+body {
+    background-image: url("/assets/images/austin-skyline.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: var(--mustard);
+}
+
+ul {
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header {
+    text-align: center;
+    border: black 1px solid;
+}
+
+h1 {
+    font-size: 10em;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main {
+    border: red 1px solid;
+    padding: 1em 0 1em 0;
+    justify-content: center;
+
+}
+
+#main-project {
+    background-image: url(/assets/images/inklein1997.github.io_Horiseon-Refactor_MK.png);
+    width:40em;
+    height: 40em;
+    border: 5px black solid;
+    margin: 1em;
+}
+
+#projects-1and2 {
+    margin: 1em;
+}
+
+#project-2 {
+    background-image: url(/assets/images/nodejs.jpg);
+    width: 20em;
+    height: 19em;
+    border:5px green solid;
+    margin-bottom: 1em;
+}
+
+#project-3 {
+    background-image: url(/assets/images/nodejs.jpg);
+    width: 20em;
+    height: 19em;
+    border:5px yellow solid;
+    margin-top: 1em;
+}
+
+
