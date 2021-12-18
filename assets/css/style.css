@@ -71,7 +71,7 @@ main {
     background-image: url(../images/inklein1997.github.io_Horiseon-Refactor_MK.png);
     width:42em;
     height: 40em;
-    border: 5px black solid;
+    border: var(--light-orange) 5px solid;
     margin: 1em;
 }
 
@@ -84,7 +84,7 @@ main {
     background-image: url(../images/nodejs.jpg);
     width: 20em;
     height: 19em;
-    border:5px red solid;
+    border: var(--light-orange) 5px solid;
     margin-right: 1em;
 }
 
@@ -92,7 +92,7 @@ main {
     background-image: url(../images/nodejs.jpg);
     width: 20em;
     height: 19em;
-    border:5px red solid;
+    border: var(--light-orange) 5px solid;
     margin-left: 1em;
 }
 
@@ -100,7 +100,7 @@ main {
     background-image: url(../images/nodejs.jpg);
     width: 20em;
     height: 19em;
-    border:5px green solid;
+    border: var(--light-orange) 5px solid;
     margin-right: 1em;
 }
 
@@ -108,31 +108,39 @@ main {
     background-image: url(../images/nodejs.jpg);
     width: 20em;
     height: 19em;
-    border:5px green solid;
+    border: var(--light-orange) 5px solid;
     margin-left: 1em;
 }
 
 section {
     background-color: var(--purple);
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #profile {
     background-image: url(../images/profile.jpg);
     width: 19em;
-    height: 15em;
+    height: 30em;
     margin-right: 2em;
 }
 
 #about-me {
     border: 1px green solid;  
     width: 70em;
-    height: 11em;  
+    height: 23em;  
 }
 
 #social {
     border: var(--purple) 1px solid;
     width: 70em;
     height: 4em;
+    margin-top:3em;
+}
+
+.icon {
+    width: 3em;
+    height: 3em;
 }
 
 footer {
