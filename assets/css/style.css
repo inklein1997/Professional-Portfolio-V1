@@ -69,6 +69,7 @@ h2{
 main {
     padding:4% 0 4% 0;
     background-color: var(--blue);
+    
 }
 
 #main-project {
@@ -76,7 +77,26 @@ main {
     height: 40em;
     border: white 5px solid;
     margin: 1em;
-    background-color: hsl(120, 43%, 41%, 0.75);
+    display: block;
+    position: relative;
+}
+
+.text {
+    background-color: white;
+    color:yellowgreen;
+    position: absolute;
+    width: 42em;
+    height: 8em;
+    bottom: 100px;
+
+}
+
+
+
+
+#profile img {
+    max-width: 100%;
+    height: auto;
 }
 
 #project-2 img {
@@ -86,6 +106,7 @@ main {
 #projects-2and3, #projects-4and5 {
     margin: 1em;
     color: white;
+
 }
 
 #project-2 {
@@ -93,6 +114,7 @@ main {
     height: 19em;
     border: white 5px solid;
     margin-right: 1em;
+    
 }
 
 #project-3 {
@@ -116,6 +138,10 @@ main {
     margin-left: 1em;
 }
 
+.project-5:hover {
+    : white;
+}
+
 section {
     background-color: var(--blue);
     padding-top: 2em;
@@ -129,12 +155,18 @@ section {
     margin-right: 2em;
 }
 
+.bio {
+    display:flex;
+    flex-wrap: wrap;
+}
+
 #about-me {
 
     width: 70em;
     height: 23em;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
+    overflow-wrap: break-word;
     
 }
 #about-me h3 {
@@ -144,20 +176,25 @@ section {
 }
 
 #about-me h4 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: 1.5;
+    
 }
 
 #social {
 
     width: 70em;
     height: 4em;
-    margin-top:3em;
 }
 
 .icon {
     width: 3.5em;
     height: 3.5em;
+    background:none;
+}
+
+.icon:hover {
+    background: white;
 }
 
 .icon-list {
@@ -171,37 +208,20 @@ section {
     
 }
 
-
-
-
-/*
-nav ul {
-    display: flex;
-    background-color: var(--light-orange);
-    justify-content: space-around;
-}
-  
-nav ul li {
-    color: #13293d;
-    padding: 1em 2em;
-    text-decoration: none;
-    text-align: center;
-}
-*/
-
-
-
-
-
-
 footer {
     background-color: hsla(242, 56%, 66%);
     height: 100px;
     text-align: center;
 }
 
-@media screen and (max-width: 992px) {
+footer h4 {
+    color: white;
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px
+}
 
+@media screen and (max-width: 992px) {
 }
 
 
